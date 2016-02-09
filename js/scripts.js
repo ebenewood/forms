@@ -19,3 +19,33 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
+
+$(function() {
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("g-bg-color");
+  });
+
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("y-bg-color");
+  });
+
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("r-bg-color");
+  });
+});
+
+$(function() {
+    $("button#light").click(function() {
+    $("body").removeClass();
+    $("body").addClass("text-black");
+    $("body").addClass("bg-white");
+  });
+    $("button#dark").click(function() {
+    $("body").removeClass();
+    $("body").addClass("text-white");
+    $("body").addClass("bg-black");
+  });
+});

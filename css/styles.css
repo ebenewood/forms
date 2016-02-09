@@ -1,3 +1,28 @@
 #story {
   display: none;
 }
+.g-bg-color {
+  background-color: green;
+}
+
+.y-bg-color {
+  background-color: yellow;
+}
+
+.r-bg-color {
+  background-color: red;
+}
+
+.text-white {
+  body: white;
+;
+}
+.text-black {
+  body: black;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-black {
+  background-color: black;
+}
